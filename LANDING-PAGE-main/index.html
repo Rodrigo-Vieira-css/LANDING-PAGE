@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Storm | Auto escola</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+   <link rel="stylesheet" href="css/variaveis.css">
+  <link rel="stylesheet" href="css/elementes.css">
+  <link rel="stylesheet" href="css/classes.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest"> 
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">Storm</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Quem somos</a></li>
+          <li><a href="#grid-one">Serviços</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#pricing">Preços</a></li>
+          <form action="../entrada/Entrada.html">
+            <input type="button" value="Entrar" class="bot">
+          </form>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section class="intro main-bg section" id="home">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2 class="tema">20 anos de historia</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus debitis soluta qui harum error?
+          Esse facilis minus modi voluptatibus ad necessitatibus, cupiditate, ea quibusdam aperiam reprehenderit nulla
+          quos earum.
+        </p>
+      </div>
+      <div class="intro-img">
+        <img src="img/storm.png" alt="" class="storm-logo">
+      </div>
+    </div>
+  </section>
+
+  <section class="white-bg section" id="intro">
+    <div class="main-content top3-content">
+      <h2>Quem somos</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officia molestiae eos, suscipit sit corrupti
+        corporis doloremque adipisci, aperiam animi consequuntur. Aliquid corrupti ad magnam ullam quos odio maxime eum?
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officia molestiae eos, suscipit sit corrupti
+        corporis doloremque adipisci, aperiam animi consequuntur. Aliquid corrupti ad magnam ullam quos odio maxime eum?
+      </p>
+    </div>
+  </section>
+
+  <section class="grid-one main-bg2 section " id="grid-one">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">3 motivos para escolher a storm</h2>
+      <p class="grid-description"></p>
+
+      <div class="grid">
+        <article>
+          <h3>Referencia do <br> pais</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quaerat facere maiores voluptates
+            repellendus consequuntur laudantium neque cum culpa alias earum itaque rerum, enim doloribus ratione debitis
+            ipsa labore accusantium?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem hic exercitationem nesciunt, eveniet
+            architecto est velit eum, inventore accusamus voluptate quia cumque odit minima delectus quas. Ea
+            perferendis dolores illum?</p>
+        </article>
+        <article>
+          <h3>Excelência no <br> que faz </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim nisi eos non corrupti eligendi.
+            Aliquid, nobis? Vitae odio consequatur voluptates. Modi veniam consequuntur ut repellendus quos quia
+            voluptatem ea!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias exercitationem pariatur
+            temporibus nisi iusto labore corporis accusamus sit nemo, ullam dicta, illum impedit earum aliquam, dolorum
+            iure fuga assumenda!</p>
+        </article>
+        <article>
+          <h3>Inovador</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim nisi eos non corrupti eligendi.
+            Aliquid, nobis? Vitae odio consequatur voluptates. Modi veniam consequuntur ut repellendus quos quia
+            voluptatem ea!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias exercitationem pariatur
+            temporibus nisi iusto labore corporis accusamus sit nemo, ullam dicta, illum impedit earum aliquam, dolorum
+            iure fuga assumenda!</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section ">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria</h2>
+      <p class="grid-description">Familia storm </p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="img/ft/foto1.jpg" alt="" class="ft">
+        </div>
+        <div class="gallery-img">
+          <img src="img/ft/foto2.jpg" alt="" class="ft">
+        </div>
+        <div class="gallery-img">
+          <img src="img/ft/foto3.jpg" alt="" class="ft">
+        </div>
+        <div class="gallery-img">
+          <img src="img/ft/foto4.jpg" alt="" class="ft">
+        </div>
+        <div class="gallery-img">
+          <img src="img/ft/foto5.jpg" alt="" class="ft">
+        </div>
+        <div class="gallery-img">
+          <img src="img/ft/foto6.jpg" alt="" class="ft">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="grid-one main-bg section " id="grid-two">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Serviços</h2>
+      <p class="grid-description">Por favor verificar disponibilidade </p>
+
+      <div class="grid">
+        <article>
+          <h3>Habilitação A </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quaerat facere maiores voluptates
+            repellendus consequuntur laudantium neque cum culpa alias earum itaque rerum, enim doloribus ratione debitis
+            ipsa labore accusantium?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem hic exercitationem nesciunt, eveniet
+            architecto est velit eum, inventore accusamus voluptate quia cumque odit minima delectus quas. Ea
+            perferendis dolores illum?</p>
+        </article>
+        <article>
+          <h3>Habilitação B</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim nisi eos non corrupti eligendi.
+            Aliquid, nobis? Vitae odio consequatur voluptates. Modi veniam consequuntur ut repellendus quos quia
+            voluptatem ea!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias exercitationem pariatur
+            temporibus nisi iusto labore corporis accusamus sit nemo, ullam dicta, illum impedit earum aliquam, dolorum
+            iure fuga assumenda!</p>
+        </article>
+        <article>
+          <h3>Habilitação AB</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim nisi eos non corrupti eligendi.
+            Aliquid, nobis? Vitae odio consequatur voluptates. Modi veniam consequuntur ut repellendus quos quia
+            voluptatem ea!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat molestias exercitationem pariatur
+            temporibus nisi iusto labore corporis accusamus sit nemo, ullam dicta, illum impedit earum aliquam, dolorum
+            iure fuga assumenda!</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Preço</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officia molestiae eos, suscipit sit corrupti
+        corporis doloremque adipisci, aperiam animi consequuntur. Aliquid corrupti ad magnam ullam quos odio maxime eum?
+      </p>
+      <div class="responsive-table">
+        <table>
+          <caption>tabela de preço</caption>
+
+          <thead>
+            <tr>
+              <th>Habilitação A</th>
+              <th>Habilitação B</th>
+              <th>Habilitação D</th>
+              <th>Habilitação E</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>conteudo 1</td>
+              <td>conteudo 2</td>
+              <td>conteudo 3</td>
+              <td>conteudo 4</td>
+
+            </tr>
+            <tr>
+              <td>conteudo 1</td>
+              <td>conteudo 2</td>
+              <td>conteudo 3</td>
+              <td>conteudo 4</td>
+
+            </tr>
+            <tr>
+              <td>conteudo 1</td>
+              <td>conteudo 2</td>
+              <td>conteudo 3</td>
+              <td>conteudo 4</td>
+
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td colspan="3"></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2 class="tema">Fale conosco</h2>
+        <p>A sua opnião é muito importante para nós, compartilhe ela com agente ! </p>
+      </div>
+      <div class="intro-img">
+        <img src="img/storm.png" alt="" class="storm-logo">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Entre em Contato</legend>
+          <div class="form-group">
+            <label for="first-name">Primeiro nome</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Ex: Rodrigo">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Ex: Vieira">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Ex: storm@gmail.com">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Menssagem</label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Sua menssagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Enviar</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+</body>
+
+</html>

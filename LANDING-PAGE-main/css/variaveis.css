@@ -1,0 +1,7 @@
+:root {
+    --primary-color: rgb(0, 0, 0);
+    --white-color: #fff; 
+    --light-gray-color:#eeee;
+    --gap: 3rem;
+    --secondery-color:rgb(10, 10, 10);
+}
